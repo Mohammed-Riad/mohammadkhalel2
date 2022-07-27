@@ -73,7 +73,7 @@ section:nth-child(2)
 }
 section:nth-child(2) > div 
 {
-    width: 307.50px;
+    width: 300.50px;
     height:300px;
     background-color: black;
     margin-right: 4px;
@@ -130,7 +130,8 @@ section:nth-child(3) > div:nth-child(2) > button
    height: 30px;
    color: white;
    cursor: pointer;
-   background-color: black;
+   background-color: black; 
+   margin-top: 15px;
 }
 
 section:nth-child(3) > div:nth-child(2)
@@ -145,7 +146,7 @@ section:nth-child(3) > div:nth-child(2)
 section:nth-child(3) > div:nth-child(2) 
   {
     
-   margin-left: 200px;
+   margin-left: 100px;
    margin-top: 5px;
  
   }
@@ -157,8 +158,8 @@ section:nth-child(3) > div:nth-child(2)
     height: 100px;
     
     overflow-y: scroll; /* Add the ability to scroll */
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 190px;
   }
   section:nth-child(3) > div:nth-child(2) > div::-webkit-scrollbar {
     display: none;
